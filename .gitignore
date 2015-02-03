@@ -7,3 +7,20 @@
 .chef/encrypted_data_bag_secret
 cookbooks/**
 !cookbooks/README.md
+
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
