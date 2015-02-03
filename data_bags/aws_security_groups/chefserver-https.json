@@ -1,0 +1,4 @@
+{
+  "id": "chefserver-https",
+  "security_group_id": "sg-c1560ba4"
+}

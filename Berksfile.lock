@@ -1,0 +1,15 @@
+DEPENDENCIES
+  chef-server-ingredient
+    git: git://github.com/opscode-cookbooks/chef-server-ingredient.git
+    revision: bbb304a5d7cc541d165fa5a6cf37af289d6b9077
+  chef_server
+    path: ../chef_server
+
+GRAPH
+  apt (2.6.1)
+  chef-server-ingredient (0.0.1)
+    apt (>= 0.0.0)
+    packagecloud (>= 0.0.0)
+  chef_server (0.1.0)
+    chef-server-ingredient (>= 0.0.0)
+  packagecloud (0.0.17)

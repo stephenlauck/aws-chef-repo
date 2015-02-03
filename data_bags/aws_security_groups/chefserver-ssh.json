@@ -1,0 +1,4 @@
+{
+  "id": "chefserver-ssh",
+  "security_group_id": "sg-c6560ba3"
+}
