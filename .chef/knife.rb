@@ -10,4 +10,6 @@ validation_key           "#{current_dir}/example-validator.pem"
 chef_server_url          'http://127.0.0.1:8889'
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
-cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path            "#{current_dir}/../cookbooks"
+
+chef_repo_path		       "#{current_dir}/../"
